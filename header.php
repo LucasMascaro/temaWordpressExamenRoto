@@ -8,8 +8,8 @@
 
   <?php wp_head(); ?>
 
-  <title>Título del blog</title>
-</head>
+  <title><?php echo get_bloginfo( 'TO feo', 'display' ) . $separator . $title; ?></title>
+
 
 <body>
   <div class="container">

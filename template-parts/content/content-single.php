@@ -1,3 +1,8 @@
+<?php
+function temazo_scripts()
+{
+    wp_enqueue_style("single.php", get_theme_file_uri("single.php"), array(), "5.1", "all");¨
+}
 <article id="post-<?php the_ID(); ?>" <?php post_class("blog-post"); ?>>
     <h2 class="blog-post-title"> <?php the_title(); ?> </h2>
     <p class="blog-post-meta">
